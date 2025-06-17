@@ -28,7 +28,7 @@ public class DreamPortalHome {
 		WebElement loadingPortal = driver.findElement(By.xpath("//h1[contains(text(),\"W\")]"));
 		String textContent = loadingPortal.getText();
 		System.out.println(textContent);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		WebElement mainContent = driver.findElement(By.xpath("//h1[contains(text(),\"P\")]"));
 		String textMainContent = mainContent.getText();
 		System.out.println(textMainContent);
